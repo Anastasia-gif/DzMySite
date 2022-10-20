@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .block-contacts img{
+            width: 50px;
+        }
+        .block-contacts{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div style="padding: 1px; color: WHEAT; background-color: #303030">
+            <h1 class class="header__h1">Резюме</h1>
+        </div>
+        <div class="header">
+            <header class="header__navBar">
+                <a href="#menu1" class="navBar__link">Главная</a>
+                <a href="#menu2" class="navBar__link">Обо мне </a>
+                <a href="#menu3" class="navBar__link">Навыки </a>
+            </header>
+        </div>
+        <main class="main">
+            <section id="menu1" class="main__block">
+                <h2 class="main__block__h1">Главная</h2>
+                <div class="main__block__info">
+                    <img style="width:200px" src="./img//myPhoto.jpg" alt="">
+                    <div>
+                        <p> Привет! Меня зовут Анастасия Макшанова. <br>
+                            Мне 28 лет. Живу в городе Иркутск.
+                        </p>
+                        <input type="checkbox" id="gender" name="gender" checked />
+                        <label for="gender">Женский</label>
+                        <p>На данный момент, нигде не работаю. Сижу дома с двумя детьми.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="menu2" class="main__about-me">
+                <h2>Обо мне </h2>
+                <p>Первое моё знакомства началось с Web. Это произошло 5 лет назад.
+                    Училась я самостоятельно.<br>
+                    На Html academy, читала книги: <strong>Мэтью Макдональд</strong>
+                    <em> исчерпывающее руководство по Web разработке</em><br>
+                    и <strong>Каил Симпсон</strong> <em>Es6 & не только.</em>
+                </p>
+                <h4>И через два года я изучила:</h4>
+                <div class="list-one">
+                    <ol>
+                        <li>Html
+                            <ul style="box-shadow: 0 0 0; border: none;">
+                                <li>Препроцессор PUG</li>
+                            </ul>
+                        </li>
+                        <li>Css
+                            <ul style="box-shadow: 0 0 0; border: none;">
+                                <li>Препроцессор SCSS</li>
+                            </ul>
+                        </li>
+                        <li>Js</li>
+                    </ol>
+                    <ul>
+                        <li>Система сборки Webpack</li>
+                        <li>Система контроля версий Git</li>
+                        <li>Реляционные базы данных SQL</li>
+                    </ul>
+                </div>
+                <p> Когда изучила эти технологии, мне стало интересно,
+                    а как сделать приложение на компьютер или на телефон? Чтобы работало оно без интернета и
+                    браузеров.
+                </p>
+                <p>
+                    Посмотрела какие технологии мне будут нужны в интернете и начала их изучать.
+                </p>
+
+                <h4>
+                    И через год я изучила:
+                </h4>
+                <div class="list-tho">
+                    <ul>
+                        <li>Основы Java
+                            <ol style="box-shadow: 0 0 0; border: none;">
+                                <li>Библиотеку JavaFx</li>
+                                <li>Xml</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+
+                Немного познакомилась с Android studio, даже немного писала код =).
+                <p>Сейчас я учусь в онлайн университете GeekBrains, специализация Ручное тестирование,
+                    и не намерена на этом останавливаться=). Уж очень я люблю иновационные технологии =).
+                    Хочу выделить те, которые хочу изучить в будующем:
+                </p>
+                <div class="list-three">
+                    <ol>
+                        <li>Автоматизированное тестирование</li>
+                        <li>Android разработка</li>
+                        <li>Кибернетика умных устроиств</li>
+                    </ol>
+                </div>
+                </p>
+
+            </section>
+            <section id="menu3" class="main__ckils">
+                <h2>Навыки</h2>
+                <div class="main__ckils__block">
+                    <div>
+                        <img src="./img/html.svg" alt="html">
+                        <div class="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                        </div>
+                    </div>
+    
+                    <div>
+                        <img src="./img/css.svg" alt="css">
+                        <div class="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                        </div>
+                    </div>
+    
+                    <div>
+                        <img src="./img/js.svg" alt="js">
+                        <div class="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                        </div>
+                    </div>
+    
+                    <div>
+                        <img src="./img/java.svg" alt="java">
+                        <div class="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                        </div>
+                    </div>
+    
+                    <div>
+                        <img src="./img/pug.svg" alt="pug">
+                        <div class="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                        </div>
+                    </div>
+    
+                    <div>
+                        <img src="./img/scss.svg" alt="scss">
+                        <div class="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                        </div>
+                    </div>
+    
+                    <div>
+                        <img src="./img/git.svg" alt="git">
+                        <div class="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                        </div>
+                    </div>
+    
+                    <div>
+                        <img src="./img/sql.svg" alt="SQL">
+                        <div class="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                        </div>
+                    </div>
+    
+                    <div>
+                        <img src="./img/sSharpe.svg" alt="C#">
+                        <div class="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                        </div>
+                    </div>
+    
+                    <div>
+                        <img src="./img/javaFx.svg" alt="JavaFx">
+                        <div class="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                        </div>
+                    </div>
+    
+                    <div>
+                        <img src="./img/xml.svg" alt="xml">
+                        <div class="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                        </div>
+                    </div>
+    
+                    <div>
+                        <img src="./img/webpack.svg" alt="webpack">
+                        <div class="star">
+                            <img src="./img/Star.svg" alt="star">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                            <img src="./img/StarNoActivity.svg" alt="starNoActivity">
+                        </div>
+                    </div>
+                </div>
+             
+
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="block-contacts">
+                <a href="https://t.me/Nastenka_dev">
+                    <img src="./img/telegram.svg" alt="telegram">
+                </a>
+                <a href="https://wa.me/89043003025?text=Здравствуйте.">
+                    <img src="./img//whatsapp.svg" alt="whatsap">
+                </a>
+               <a href="mailto:nastenka_slastenka2022@mail.ru">
+                   <img src="./img/mail.svg" alt="mail">
+               </a>
+               
+            </div>
+        </footer>
+
+    </div>
+    </div>
+
+</body>
+<script src="script.js" ></script>
+
+</html>
