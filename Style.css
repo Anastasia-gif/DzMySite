@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family:'Montserrat', sans-serif;;
+}
+
+.content {
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.header__navBar {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    border-bottom: 1px solid rgb(218, 214, 214);
+    background-color: #110199a6;
+}
+
+.navBar__link {
+    text-decoration: none;
+    padding: 15px 5px;
+    color:WHEAT;
+    font-weight: bold;
+}
+
+ol{
+    border: 1px solid #dddbdb;
+    padding: 30px;
+    box-shadow: 0 0 10px black;
+}
+ul{
+    border: 1px solid #dddbdb;
+    padding: 30px;
+    box-shadow: 0 0 10px black;
+}
+.main__block {
+    padding: 15px 10px;
+    background: linear-gradient(180deg, #1200ab6b, transparent);
+    margin-top: -1px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.main__block__info {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.main__block__info img {
+    border-radius: 50%;
+}
+
+.main__block__info div {
+    align-self: center;
+    padding: 10px;
+}
+
+h2{
+    margin-top: 40px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.main__about-me h2 {
+    margin-bottom: 30px;
+    
+}
+
+.main__about-me p,
+h4 {
+    text-align: center;
+}
+
+.list-one {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.list-tho,
+.list-three {
+    display: flex;
+    justify-content: center;
+}
+
+.main__ckils {
+    background: linear-gradient(0deg, #1200ab6b, transparent);
+    padding: 20px 15px;
+}
+
+.main__ckils__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.main__ckils__block>div {
+    margin: 20px 0;
+}
+
+.main__ckils__block>div>img {
+    width: 150px;
+}
+
+.star {
+    text-align: center;
+}
+
+.footer {
+    padding: 30px 15px;
+    background-color: #110199a6;
+}
