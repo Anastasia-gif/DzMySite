@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<svg width="210" height="210" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <radialGradient cx="0.5" cy="0.5" id="svg_5" r="0.5" spreadMethod="pad">
+   <stop offset="0" stop-color="#994a99" stop-opacity="0.992188"/>
+   <stop offset="0.651062" stop-color="#442f55" stop-opacity="0.996094"/>
+  </radialGradient>
+  <radialGradient cx="0.5" cy="0.5" id="svg_15" r="0.5" spreadMethod="pad">
+   <stop offset="0" stop-color="#34364e" stop-opacity="0.988281"/>
+   <stop offset="0.651062" stop-color="#0c0824" stop-opacity="0.992188"/>
+  </radialGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="url(#svg_15)" height="200" id="svg_1" rx="16" ry="16" stroke="#31c5f0" stroke-width="7" width="200" x="3.5" y="5.5"/>
+  <rect fill="#FF0000" height="0" id="svg_2" stroke="#000000" stroke-width="8" width="3" x="410.5" y="208.5"/>
+  <text fill="#000000" font-family="serif" font-size="7" id="svg_8" stroke="#ffaaff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(36.0306 0 0 8.02465 -9722.37 -1086.29)" x="277.5" xml:space="preserve" y="155.5"/>
+  <text fill="#31c5f0" font-family="serif" font-size="6" font-weight="bold" id="svg_10" stroke="#31c5f0" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" style="cursor: move;" text-anchor="middle" transform="rotate(5 103.993 99.4108) matrix(12.2635 0 0 8.67978 -3234.5 -1115.56)" x="272.230009" xml:space="preserve" y="142.006797">Java</text>
+  <polygon cx="58.251953" cy="100.63086" edge="0" fill="url(#svg_5)" id="svg_11" orient="x" shape="regularPoly" sides="5" stroke="#31c5f0" stroke-width="0" strokeWidth="7" strokecolor="#31c5f0"/>
+  <polygon cx="63.251953" cy="99.63086" edge="0" fill="url(#svg_5)" id="svg_12" orient="x" shape="regularPoly" sides="5" strokeWidth="0" strokecolor="#31c5f0"/>
+  <polygon cx="49.751953" cy="93.13086" edge="0" fill="url(#svg_5)" id="svg_13" orient="x" shape="regularPoly" sides="5" strokeWidth="0" strokecolor="none"/>
+  <polygon cx="49.751953" cy="93.13086" edge="0" fill="url(#svg_5)" id="svg_14" orient="x" shape="regularPoly" sides="5" stroke="#31c5f0" strokeWidth="0" strokecolor="none"/>
+ </g>
+</svg>

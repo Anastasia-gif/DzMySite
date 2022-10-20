@@ -1,0 +1,20 @@
+<svg width="210" height="210" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <radialGradient cx="0.5" cy="0.5" id="svg_3" r="0.5" spreadMethod="pad">
+   <stop offset="0.136932" stop-color="#1c1c8c" stop-opacity="0.992188"/>
+   <stop offset="0.701843" stop-color="#030338" stop-opacity="0.996094"/>
+  </radialGradient>
+ </defs>
+ <g class="layer" display="inline">
+  <title>Layer 1</title>
+  <rect fill="url(#svg_3)" height="200" id="svg_1" rx="10" ry="10" stroke="#0000ff" stroke-dasharray="5,5" stroke-width="10" width="200" x="4" y="5"/>
+  <text fill="#000000" font-family="serif" font-size="24" id="svg_4" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(7.29037 0 0 1 -1152.26 0)" x="188.503907" xml:space="preserve" y="206.26172"/>
+  <text fill="#0000ff" font-family="serif" font-size="19" font-weight="bold" id="svg_5" stroke="#1a1aef" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="rotate(10 105.645 102.03) matrix(2.78521 0 0 2.32613 -251.951 -176.572)" x="128.270017" xml:space="preserve" y="126.005883">JavaFx</text>
+  <polygon fill="#007fff" id="svg_8"/>
+  <polygon fill="#007fff" id="svg_9"/>
+  <polygon fill="#007fff" id="svg_10" points="153.50390669325134,43.59505292879961 153.660649427196,44.04598173029962 154.13794437078144,44.05570826588298 153.75752176426337,44.344124127299594 153.89576352811298,44.80106425838291 153.50390669325134,44.52838626213294 153.1120498583897,44.80106425838291 153.2502916222393,44.344124127299594 152.86986901572124,44.05570826588298 153.34716395930667,44.04598173029962 153.50390669325134,43.59505292879961 153.660649427196,44.04598173029962 " stroke-width="10"/>
+  <polygon fill="#007fff" id="svg_11"/>
+  <polygon fill="#007fff" id="svg_12"/>
+ </g>
+</svg>
